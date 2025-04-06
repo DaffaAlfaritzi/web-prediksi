@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  <body>
+    <div class="navigasi">
+      <h1 class="judul">Web Prediksi Gender</h1>
+    </div>
+    <br />
+    <div class="container1">
+      <div class="isi">
+        <h2>Halo, selamat datang di web prediksi gender</h2>
+        <p class="p1">Jadi, apa itu web prediksi gender?</p>
+        <p class="p2">
+          web prediksi gender adalah web sederhana yang digunakan untuk melihat
+          gender berdasarkan nama anda yang dimana data data nama didapatkan
+          berdasarkan data yang sudah ada, namun hal ini tidak menutup
+          kemungkinan adanya kesalahan dalam penentuan gender anda, so mari kita
+          coba!!
+        </p>
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="semi-form">
+        <h2>Silahkan masukkan nama anda pada form dibawah ini</h2>
+        <div class="form">
+          <label>Masukkan nama anda</label>
+          <input
+            type="text"
+            placeholder="Contoh : Daffa"
+            onkeydown="prediksi(event)"
+            id="input"
+          />
+          <div id="prediksi"></div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
